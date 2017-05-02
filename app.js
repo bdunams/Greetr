@@ -1,7 +1,7 @@
 // gets a new object (architecture doesn't require 'new')
 var g = G$('Brian', 'Dunams', 'en');
 
-// use out chainable methods
+// use our chainable methods
 g.greet('formal').setLang('es').greet();
 
 // let's use our object on the click of the login button

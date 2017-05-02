@@ -6,24 +6,34 @@
     }
     
     // hidden within the scope of the IIFE and never directly accessible
-    var supportedLangs = ['en', 'es'];
+    // English, Spanish, French, Chinese, Arabic
+    var supportedLangs = ['en', 'es', 'fr', 'zh', 'ar'];
     
     // informal greetings
     var greetings = {
         en: 'Hello',
-        es: 'Hola'
+        es: 'Hola',
+        fr: 'Bonjour',
+        zh: 'Nǐ hǎo',
+        ar: 'marhabaan'
     };
     
     // formal greetings
     var formalGreetings = {
         en: 'Greetings',
-        es: 'Saludos'
+        es: 'Saludos',
+        fr: 'Salutations',
+        zh: 'Wènhòu',
+        ar: 'tahiat tayiba'
     };
     
     // logger messages
     var logMessages = {
         en: 'Logged in',
-        es: 'Inicio sesion'
+        es: 'Inicio sesion',
+        fr: 'Connecté',
+        zh: 'Dēnglù',
+        ar: 'tasjil alddukhul'
     }
     
     // prototype holds all methods for efficiency
